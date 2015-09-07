@@ -3,20 +3,21 @@
     android:id="@+id/mylayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_launcher"
+    android:background="#2EC4B6"
     android:orientation="vertical" >
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="212dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.22"
+        android:layout_weight="0.03"
         android:text="TextView" />
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="141dp"
-        android:layout_height="193dp"
-        android:src="@drawable/ic_launcher" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.21"
+        android:src="@drawable/apple" />
 
 </LinearLayout>

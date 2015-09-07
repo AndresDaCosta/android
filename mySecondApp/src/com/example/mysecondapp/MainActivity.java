@@ -98,6 +98,7 @@ public class MainActivity extends Activity implements OnClickListener{
 			//paso al objeto de layout la ruta del layout y le paso tambien su id
 			
 			TextView tv = (TextView) layout.findViewById(R.id.textView1);
+			tv.setText("hola que ases eres de apple o k ases");
 			
 			//cojo el text view del layout con id 
 			
